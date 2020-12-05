@@ -114,7 +114,8 @@ const Footer = class extends React.Component {
                   />
                 </a>
               </div>
-            </div>
+              </div>
+            <h5 style={{color: 'whitesmoke'}}>Copyright © Engineeering iQ Ltd. X Xxxxxx Street, Xxxxxxxxxx, London, X2 6XX, UK. </h5>
           </div>
         </div>
       </footer>
