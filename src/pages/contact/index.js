@@ -34,6 +34,7 @@ export default class Index extends React.Component {
   }
 
   render() {
+    console.log(this.state)
     return (
       <Layout>
         <section className="section">
@@ -72,6 +73,36 @@ export default class Index extends React.Component {
                   </div>
                 </div>
                 <div className="field">
+                  <label className="label" htmlFor={'company'}>
+                    Your Company
+                  </label>
+                  <div className="control">
+                    <input
+                      className="input"
+                      type={'text'}
+                      name={'company'}
+                      onChange={this.handleChange}
+                      id={'company'}
+                      required={true}
+                    />
+                  </div>
+                </div>
+                <div className="field">
+                  <label className="label" htmlFor={'number'}>
+                    Your Contact Number
+                  </label>
+                  <div className="control">
+                    <input
+                      className="input"
+                      type={'text'}
+                      name={'number'}
+                      onChange={this.handleChange}
+                      id={'number'}
+                      required={true}
+                    />
+                  </div>
+                </div>
+                <div className="field">
                   <label className="label" htmlFor={'email'}>
                     Email
                   </label>
@@ -85,6 +116,19 @@ export default class Index extends React.Component {
                       required={true}
                     />
                   </div>
+                </div>
+                <div className="field">
+                  <label className="label" htmlFor={'request'}>
+                  How can we help you?
+                  </label>
+                  <select onChange={this.handleChange} id={'request'} className="control" name={'request'}>
+                    <option value>Please Select</option>
+                    <option value="Design services">Design services</option>
+                    <option value="Surveying & Monitoring">Surveying & Monitoring</option>
+                    <option value="Certification Services">Certification Services</option>
+                    <option value="BIM Services">BIM Services</option>
+                    <option value="Other">Other (please describe below)</option>
+                  </select>
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'message'}>
