@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Engineer iQ
-image: /img/home-jumbotron.jpg
+image: /img/bottle-production.jpg
 heading: Great Engineering
 subheading: Independent Business Consultancy Service to the Dairy, Food & Beverage Industry
 mainpitch:
