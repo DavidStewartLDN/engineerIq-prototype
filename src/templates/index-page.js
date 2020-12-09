@@ -7,6 +7,8 @@ import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import Profiles from '../components/Profiles-reversed'
 
+import AboutVideo from "../../static/videos/engineer-iq-about.mp4"
+
 export const IndexPageTemplate = ({
   image,
   title,
@@ -72,8 +74,10 @@ export const IndexPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
+                  <div className="is-desktop is-vcentered">
+                    <video className="is-desktop is-vcentered" width="1080" controls autoPlay muted>
+                      <source src={AboutVideo} type="video/mp4"/>
+                    </video>
                   </div>
                   <div className="tile">
                     <h3 className="subtitle">{mainpitch.description}</h3>
