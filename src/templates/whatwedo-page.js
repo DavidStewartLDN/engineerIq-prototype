@@ -9,7 +9,7 @@ export const WhatWeDoTemplate = ({
   title,
   heading,
   description,
-  people,
+  topic,
 }) => (
   <div>
     <div
@@ -44,7 +44,7 @@ export const WhatWeDoTemplate = ({
                     <p>{description}</p>
                   </div>
                 </div>
-                <WhatWeDoItems gridItems={people.profiles} />
+                <WhatWeDoItems gridItems={topic.sections} />
               </div>
             </div>
           </div>
@@ -59,8 +59,8 @@ WhatWeDoTemplate.propTypes = {
   heading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
-  people: PropTypes.shape({
-    profiles: PropTypes.array,
+  topic: PropTypes.shape({
+    sections: PropTypes.array,
   }),
 }
 
@@ -74,7 +74,7 @@ const WhatWeDoPage = ({ data }) => {
         heading={frontmatter.heading}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
-        people={frontmatter.people}
+        topic={frontmatter.topic}
       />
     </Layout>
   )
@@ -97,8 +97,8 @@ export const pageQuery = graphql`
         title
         heading
         description
-        people {
-          profiles {
+        topic {
+          sections {
             image {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {
@@ -106,7 +106,7 @@ export const pageQuery = graphql`
                 }
               }
             }
-            name
+            title
             text
           }
         }

@@ -7,8 +7,8 @@ description: >-
   our clients with any and all questions they may have. We have a great wealth of
   experience across the Dairy, Food & Beverage Industry and we are ready to help
   you with the continuous improvement and new projects.
-people:
-  profiles:
+topic:
+  sections:
     - image: /img/person-placeholder.jpg
       title: RFQ Development
       text: >
