@@ -6,11 +6,8 @@ import Layout from '../components/Layout'
 import Profiles from '../components/Profiles'
 
 export const TeamPageTemplate = ({
-  image,
   title,
   heading,
-  subheading,
-  mainpitch,
   description,
   people,
 }) => (
@@ -58,10 +55,8 @@ export const TeamPageTemplate = ({
 )
 
 TeamPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
-  subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
   people: PropTypes.shape({
@@ -75,10 +70,8 @@ const TeamPage = ({ data }) => {
   return (
     <Layout>
       <TeamPageTemplate
-        image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         people={frontmatter.people}
@@ -102,19 +95,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "team-page" } }) {
       frontmatter {
         title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
         heading
-        subheading
-        mainpitch {
-          title
-          description
-        }
         description
         people {
           profiles {
@@ -128,8 +109,6 @@ export const pageQuery = graphql`
             name
             text
           }
-          heading
-          description
         }
       }
     }
