@@ -1,5 +1,5 @@
 ---
-templateKey: team-page
+templateKey: 'team-page'
 title: Engineer iQ
 heading: Our team at Engineer iQ
 description: >-
