@@ -2,7 +2,7 @@
 templateKey: team-page
 title: Engineer iQ
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
+heading: Our team at Engineer iQ
 subheading: Independent Business Consultancy Service to the Dairy, Food & Beverage Industry
 mainpitch:
   title: Why Engineer iQ
@@ -12,32 +12,21 @@ mainpitch:
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Here at Engineer we have a great team with a wide range of experience to help
+  our clients with any and all questions they may have. We have a great wealth of
+  experience across the Dairy, Food & Beverage Industry and we are ready to help
+  you with the continuous improvement and new projects.
 intro:
   blurbs:
     - image: /img/coffee.png
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+        Andrew is a global expert in dairy design, production and capex planning. Having graduated from Newcastle University in 1989 he started on the Graduate training scheme with the APV Group the leaders in dairy engineering.  Joining Tetra Pak in 2005 he worked across Europe and Asia building dairy and food facilities.
     - image: /img/coffee-gear.png
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        Richard is a Chemical Engineer by training and has worked as process engineer and project manager on a varied range of food related projects since 1988. His experience covers everything from cheese, yogurt, flavoured milks and milk powders to ready meals, brewery and beverage systems, juice processing and infant formula manufacture. With a strong schedule management discipline and contracting skills, Richard will ensure our clients’ needs are met. 
     - image: /img/tutorials.png
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+        He has spent the majority of his working life in the Dairy, Food & Beverage Industry and has held global management positions with APV and later Invensys and SPX.His work with Global Brand Leaders in the industry has delivered process plants of exceptional performance meeting or exceeding world class metrics.
     - image: /img/meeting-space.png
       text: >
         We believe that good coffee has the power to bring people together.
