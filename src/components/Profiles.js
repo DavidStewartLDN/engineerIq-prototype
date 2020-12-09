@@ -2,6 +2,16 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
+const ConsoleLog = ({ children }) => {
+  console.log(children);
+  return false;
+};
+
+function NewlineText(props) {
+  const text = props.text;
+  return text.split('\n').map(str => <p>{str}</p>);
+}
+
 const ProfileGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     {gridItems.map((item) => (
@@ -10,8 +20,10 @@ const ProfileGrid = ({ gridItems }) => (
             <PreviewCompatibleImage imageInfo={item} />
           </div>
           <div className="column">
-            <span>{item.text}</span>
+            <h1>{item.name}</h1>
+            <NewlineText text={item.text}></NewlineText>
           </div>
+          <ConsoleLog>{item.text}</ConsoleLog>
       </div>
     ))}
   </div>

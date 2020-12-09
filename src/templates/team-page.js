@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Profiles from '../components/Profiles'
@@ -12,7 +12,7 @@ export const TeamPageTemplate = ({
   subheading,
   mainpitch,
   description,
-  intro,
+  people,
 }) => (
   <div>
     <div
@@ -47,7 +47,7 @@ export const TeamPageTemplate = ({
                     <p>{description}</p>
                   </div>
                 </div>
-                <Profiles gridItems={intro.blurbs} />
+                <Profiles gridItems={people.profiles} />
               </div>
             </div>
           </div>
@@ -64,8 +64,8 @@ TeamPageTemplate.propTypes = {
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
+  people: PropTypes.shape({
+    profiles: PropTypes.array,
   }),
 }
 
@@ -81,7 +81,7 @@ const TeamPage = ({ data }) => {
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
-        intro={frontmatter.intro}
+        people={frontmatter.people}
       />
     </Layout>
   )
@@ -116,8 +116,8 @@ export const pageQuery = graphql`
           description
         }
         description
-        intro {
-          blurbs {
+        people {
+          profiles {
             image {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {
@@ -125,6 +125,7 @@ export const pageQuery = graphql`
                 }
               }
             }
+            name
             text
           }
           heading
