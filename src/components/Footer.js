@@ -56,16 +56,16 @@ const Footer = class extends React.Component {
               <div className="column is-6">
                 <section>
                   <ul className="menu-list">
-                    <li>
-                      <Link className="navbar-item" to="/team">
-                        Our Team
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/blog">
-                        Case Studies
-                      </Link>
-                    </li>
+                  <li>
+                    <Link className="navbar-item" to="/blog">
+                      Case Studies
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="navbar-item" to="/team">
+                      Our Team
+                    </Link>
+                  </li>
                     <li>
                       <Link className="navbar-item" to="/contact">
                         Contact
