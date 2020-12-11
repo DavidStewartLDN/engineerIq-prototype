@@ -41,22 +41,6 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-6">
-                <section>
-                  <ul className="menu-list">
-                  <li>
                     <Link className="navbar-item" to="/blog">
                       Case Studies
                     </Link>
@@ -71,10 +55,20 @@ const Footer = class extends React.Component {
                         Contact
                       </Link>
                     </li>
+                    <li>
+                      <a
+                        className="navbar-item"
+                        href="/admin/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Admin
+                      </a>
+                    </li>
                   </ul>
                 </section>
               </div>
-              </div>
+            </div>
             <h5 style={{color: 'whitesmoke'}}>Copyright © Engineeering iQ Ltd. X Xxxxxx Street, Xxxxxxxxxx, London, X2 6XX, UK. </h5>
           </div>
         </div>
