@@ -73,7 +73,7 @@ const Footer = class extends React.Component {
             </div>
           </div>
           </div>
-        <h5 className="has-text-white-ter has-text-centered">Copyright © Engineeering iQ Ltd. X Xxxxxx Street, Xxxxxxxxxx, London, X2 6XX, UK. </h5>
+        <h5 className="has-text-white-ter has-text-centered">Copyright © Engineeering iQ Ltd. | Registered in England No. 12641286. VAT no. 360708406 | Address: 3 Spring Cottages, London Road, Crowborough, East Sussex, TN6 1UT.</h5>
       </footer>
     )
   }
