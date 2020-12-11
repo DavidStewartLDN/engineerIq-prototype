@@ -12,17 +12,19 @@ const Footer = class extends React.Component {
   render() {
     return (
       <footer className="footer has-background-black has-text-white-ter">
-        <div className="content has-text-centered">
-          <img
-            src={logo}
-            alt="Engineer iQ"
-            style={{ width: '36.6em' }}
-          />
+      <div style={{ maxWidth: '100vw' }} className="columns is-vcentered">
+        <div className="column is-9">
+          <div className="content has-text-centered">
+            <img
+              src={logo}
+              alt="Engineer iQ"
+              style={{ width: '36.6em' }}
+            />
+          </div>
         </div>
+        <div className="column is-3">
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
-            <div style={{ maxWidth: '100vw' }} className="columns">
-              <div className="column is-6">
                 <section className="menu">
                   <ul className="menu-list">
                     <li>
@@ -69,9 +71,9 @@ const Footer = class extends React.Component {
                 </section>
               </div>
             </div>
-            <h5 style={{color: 'whitesmoke'}}>Copyright © Engineeering iQ Ltd. X Xxxxxx Street, Xxxxxxxxxx, London, X2 6XX, UK. </h5>
           </div>
-        </div>
+          </div>
+        <h5 className="has-text-white-ter has-text-centered">Copyright © Engineeering iQ Ltd. X Xxxxxx Street, Xxxxxxxxxx, London, X2 6XX, UK. </h5>
       </footer>
     )
   }
