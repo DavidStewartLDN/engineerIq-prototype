@@ -54,6 +54,7 @@ export const IndexPageTemplate = ({
           {title}
         </h1>
         */}
+        {/*
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
@@ -67,12 +68,16 @@ export const IndexPageTemplate = ({
         >
           {subheading}
         </h3>
+        */}
       </div>
     </div>
     <div
-      className="full-width-image"
+      className="has-text-centered"
+      style={{
+        padding: '1em',
+      }}
     >
-        <h3
+        <span
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
             boxShadow:
@@ -84,7 +89,7 @@ export const IndexPageTemplate = ({
           }}
         >
           {subheading}
-        </h3>
+        </span>
       </div>
     <section className="section section--gradient">
       <div className="container">
