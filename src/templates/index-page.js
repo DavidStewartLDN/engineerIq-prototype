@@ -94,7 +94,6 @@ export const IndexPageTemplate = ({
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
-          <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <div className="content">
@@ -107,10 +106,12 @@ export const IndexPageTemplate = ({
                     <h3 className="subtitle">{mainpitch.description}</h3>
                   </div>
                 </div>
-                <Profiles gridItems={intro.blurbs} />
+                <div id="about-section">
+                  <Profiles gridItems={intro.blurbs} />
+                </div>
               </div>
             </div>
-          </div>
+
         </div>
       </div>
     </section>
