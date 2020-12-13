@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Engineer iQ
-image: /img/bottle-production.jpg
+image: /img/tank-farm-1-shortened.jpg
 heading: Great Engineering
 subheading: Independent Business Consultancy Service to the Dairy, Food & Beverage Industry
 mainpitch:
