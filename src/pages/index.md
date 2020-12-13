@@ -16,6 +16,7 @@ description: >-
 intro:
   blurbs:
     - image: /img/tank-farm-2.jpg
+      name: About
       text: >
         Engineer iQ provides an independent consulting service to the Dairy, Food and Beverage Industry.
         
