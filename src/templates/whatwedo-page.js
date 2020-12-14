@@ -35,8 +35,27 @@ export const WhatWeDoTemplate = ({
         <div className="section">
           <div className="columns">
             <div className="column is-10 is-offset-1">
+              <div
+                className="has-text-justified"
+                style={{
+                  padding: '1em',
+                }}
+              >
+                <span
+                  className="has-text-weight-bold is-size-1-mobile is-size-1-tablet is-size-1-widescreen"
+                  style={{
+                    boxShadow:
+                      'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+                    backgroundColor: 'rgb(255, 68, 0)',
+                    color: 'white',
+                    lineHeight: '1',
+                    padding: '0.25em',
+                  }}
+                >
+                What We Do
+                </span>
+              </div>
               <div className="content">
-
                 <WhatWeDoItems gridItems={topic.sections} />
               </div>
             </div>

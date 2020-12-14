@@ -14,7 +14,7 @@ topic:
       text: >
         The Engineer iQ team will develop a comprehensive RFQ document for your new project and support the vendor selection process. Working with your team Engineer iQ will capture your requirements and translate these into product, process, automation & schedule requirements driven by a robust project management template.
 
-    - image: /img/Digital-Factory-Orange.jpg
+    - image: /img/Digital-Factory.jpg
       title: Sustainable Solutions
       text: >
         The Engineer iQ team have an outstanding track record for delivering Carbon Neutral, high performing processes driven by an integrated automation operation based on a high availability architecture. The factory of the future today!

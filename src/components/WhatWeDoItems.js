@@ -17,7 +17,7 @@ function getId() {
 const WhatWeDoGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     {gridItems.map((item) => (
-      <div key={item.text} className="columns is-mobile is-multiline is-vcentered">
+      <div key={item.text} className="columns is-mobile is-multiline is-vcentered pt-6">
         {getId() % 2 == 0 ? (
           <>
             <div className="column">
