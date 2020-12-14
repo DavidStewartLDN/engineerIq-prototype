@@ -18,29 +18,36 @@ export const TeamPageTemplate = ({
         backgroundImage: `url('/img/tank-farm-1.jpg')`,
       }}
     >
-    <h1
-      className="has-text-weight-bold is-size-1"
-      style={{
-        boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-        backgroundColor: '#f40',
-        color: 'white',
-        padding: '1rem',
-      }}
-    >
-    Our Team
-    </h1>
   </div>
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
           <div className="columns">
             <div className="column is-10 is-offset-1">
+            <div
+            className="has-text-justified"
+            style={{
+              padding: '1em',
+              paddingBottom: '3em',
+            }}
+          >
+            <span
+              className="has-text-weight-bold is-size-1-mobile is-size-1-tablet is-size-1-widescreen"
+              style={{
+                boxShadow:
+                  'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+                backgroundColor: 'rgb(255, 68, 0)',
+                color: 'white',
+                lineHeight: '1',
+                padding: '0.25em',
+              }}
+            >
+            Our Team
+            </span>
+          </div>
               <div className="content">
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2 has-text-centered">
-                      {heading}
-                    </h3>
                     <p>{description}</p>
                   </div>
                 </div>
