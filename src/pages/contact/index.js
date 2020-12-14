@@ -2,6 +2,13 @@ import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
 
+import arla from "../../../static/img/arla.jpg"
+import benna from "../../../static/img/benna.jpg"
+import fdt from "../../../static/img/fdt.jpg"
+import mccormick from "../../../static/img/mccormick.jpg"
+import muller from "../../../static/img/muller.jpg"
+
+
 function encode(data) {
   return Object.keys(data)
     .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
@@ -40,10 +47,14 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="columns is-vcentered">
-              <div className="column">
-                <h1 className="is-size-1 has-text-centered">Blank Text</h1>
+              <div className="column is-6">
+                <img src={arla} alt='Arla logo'/>
+                <img src={benna} alt='Benna logo'/>
+                <img src={fdt} alt='FDT logo'/>
+                <img src={mccormick} alt='Mccormick logo'/>
+                <img src={muller} alt='Muller logo'/>
               </div>
-              <div className="column">
+              <div className="column is-6">
                 <div className="content">
                   <h1>Contact</h1>
                   <form
