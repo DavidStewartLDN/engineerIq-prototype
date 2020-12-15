@@ -69,7 +69,27 @@ export const IndexPageTemplate = ({
         */}
       </div>
     </div>
-    <div
+    <section className="section section--gradient">
+      <div className="container">
+        <div className="section">
+            <div className="column is-10 is-offset-1">
+              <div className="content">
+                <div className="content">
+                {/*
+                  <div className="is-desktop is-vcentered">
+                    <video className="is-desktop is-vcentered" width="1080" controls autoPlay muted>
+                      <source src={AboutVideo} type="video/mp4"/>
+                    </video>
+                  </div>
+                  <div className="tile has-text-centered">
+                    <h3 className="subtitle has-text-centered">{mainpitch.description}</h3>
+                  </div>
+                  */}
+                </div>
+                <div id="about-section">
+                  <AboutGrid gridItems={intro.blurbs} />
+                </div>
+                <div
       className="has-text-centered"
       style={{
         padding: '1em',
@@ -89,24 +109,6 @@ export const IndexPageTemplate = ({
           {subheading}
         </span>
       </div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="is-desktop is-vcentered">
-                    <video className="is-desktop is-vcentered" width="1080" controls autoPlay muted>
-                      <source src={AboutVideo} type="video/mp4"/>
-                    </video>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
-                <div id="about-section">
-                  <AboutGrid gridItems={intro.blurbs} />
-                </div>
               </div>
             </div>
         </div>
