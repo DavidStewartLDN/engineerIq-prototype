@@ -7,6 +7,7 @@ import benna from "../../../static/img/benna.jpg"
 import fdt from "../../../static/img/fdt.png"
 import mccormick from "../../../static/img/mccormick.jpg"
 import muller from "../../../static/img/muller.png"
+import gemak from "../../../static/img/gemak.png"
 
 
 function encode(data) {
@@ -59,6 +60,9 @@ export default class Index extends React.Component {
                     </div>
                     <div className="column is-half">
                       <img src={fdt} alt='FDT logo'/>
+                    </div>
+                    <div className="column is-half">
+                      <img src={gemak} alt='Gemak logo'/>
                     </div>
                     <div className="column is-half">
                       <img src={mccormick} alt='Mccormick logo'/>
