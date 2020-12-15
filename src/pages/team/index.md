@@ -32,4 +32,9 @@ people:
         He has spent the majority of his working life in the Dairy, Food & Beverage Industry and has held global management positions with APV and later Invensys and SPX. His work with Global Brand Leaders in the industry has delivered process plants of exceptional performance meeting or exceeding world class metrics.  
 
         Bill is a reluctant gardener who enjoys solving puzzles and, if the weather’s fine, a round of golf.
+
+    - image: /img/person-placeholder.jpg
+      name: Paul Tempest
+      text: >
+        Paul Tempest Biography Paul Tempest Biography Paul Tempest Biography Paul Tempest Biography Paul Tempest Biography Paul Tempest Biography Paul Tempest Biography Paul Tempest Biography 
 ---
