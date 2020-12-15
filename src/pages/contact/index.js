@@ -4,9 +4,9 @@ import Layout from '../../components/Layout'
 
 import arla from "../../../static/img/arla.jpg"
 import benna from "../../../static/img/benna.jpg"
-import fdt from "../../../static/img/fdt.jpg"
+import fdt from "../../../static/img/fdt.png"
 import mccormick from "../../../static/img/mccormick.jpg"
-import muller from "../../../static/img/muller.jpg"
+import muller from "../../../static/img/muller.png"
 
 
 function encode(data) {
@@ -47,12 +47,25 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="columns is-vcentered">
-              <div className="column is-6">
-                <img src={arla} alt='Arla logo'/>
-                <img src={benna} alt='Benna logo'/>
-                <img src={fdt} alt='FDT logo'/>
-                <img src={mccormick} alt='Mccormick logo'/>
-                <img src={muller} alt='Muller logo'/>
+              <div className="column">
+                <h1> Hey there</h1>
+                <div className="columns is-multiline is-mobile">
+                  <div className="column is-half">
+                    <img src={arla} alt='Arla logo'/>
+                  </div>
+                  <div className="column is-half">
+                    <img src={benna} alt='Benna logo'/>
+                  </div>
+                  <div className="column is-half">
+                    <img src={fdt} alt='FDT logo'/>
+                  </div>
+                  <div className="column is-half">
+                    <img src={mccormick} alt='Mccormick logo'/>
+                  </div>
+                  <div className="column is-half">
+                    <img src={muller} alt='Muller logo'/>
+                  </div>
+                </div>
               </div>
               <div className="column is-6">
                 <div className="content">
