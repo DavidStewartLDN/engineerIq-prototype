@@ -14,16 +14,29 @@ function NewlineText(props) {
 
 const ProfileGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
-    {gridItems.map((item) => (
+    {gridItems.map((item, index) => (
       <div key={item.text} className="columns is-mobile is-multiline is-vcentered">
-          <div className="column">
-            <PreviewCompatibleImage imageInfo={item} />
-          </div>
-          <div className="column">
-            <h1>{item.name}</h1>
-            <NewlineText text={item.text}></NewlineText>
-          </div>
-          <ConsoleLog>{item.text}</ConsoleLog>
+        {index % 2 === 0 ? (
+          <>
+            <div className="column">
+              <PreviewCompatibleImage imageInfo={item} />
+            </div>
+            <div className="column">
+              <h1>{item.name}</h1>
+              <NewlineText text={item.text}></NewlineText>
+            </div>
+          </>
+          ) : (
+          <>
+            <div className="column">
+              <h1>{item.name}</h1>
+              <NewlineText text={item.text}></NewlineText>
+            </div>
+            <div className="column">
+              <PreviewCompatibleImage imageInfo={item} />
+            </div>
+          </>
+          )}
       </div>
     ))}
   </div>
