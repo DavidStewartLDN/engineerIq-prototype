@@ -3,9 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
-import Profiles from '../components/Profiles-reversed'
+import AboutGrid from '../components/About'
 
 import AboutVideo from "../../static/videos/engineer-iq-about.mp4"
 
@@ -107,7 +105,7 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
                 <div id="about-section">
-                  <Profiles gridItems={intro.blurbs} />
+                  <AboutGrid gridItems={intro.blurbs} />
                 </div>
               </div>
             </div>
