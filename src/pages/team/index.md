@@ -36,5 +36,9 @@ people:
     - image: /img/person-placeholder.jpg
       name: Paul Tempest
       text: >
-        Paul Tempest Biography Paul Tempest Biography Paul Tempest Biography Paul Tempest Biography Paul Tempest Biography Paul Tempest Biography Paul Tempest Biography Paul Tempest Biography 
+        Paul has over 10 years independent consulting experience and 19 years in senior management positions with APV (now SPX), the global equipment manufacturer and contractor to the food industry. 
+        
+        A graduate in chemical engineering and with a background in process development in the food industry.  Paul is also qualified in Six Sigma process improvement techniques and has applied these skills to deliver significant performance improvement across a wide range of food production processes as well as wider business functions such as supply chain, operations, sales and customer service activities.  
+
+ 
 ---
