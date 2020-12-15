@@ -69,6 +69,7 @@ export default class Index extends React.Component {
                   </div>
                 </div>
               </div>
+              <div className="column is-1"></div>
               <div className="column is-4">
                 <div className="content">
                   <h1 className='has-text-centered'>Contact</h1>
