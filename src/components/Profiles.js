@@ -18,21 +18,21 @@ const ProfileGrid = ({ gridItems }) => (
       <div key={item.text} className="columns is-mobile is-multiline is-vcentered">
         {index % 2 === 0 ? (
           <>
-            <div className="column is-6">
+            <div className="column is-4">
               <PreviewCompatibleImage imageInfo={item} />
             </div>
-            <div className="column is-6">
+            <div className="column is-8">
               <h1>{item.name}</h1>
               <NewlineText text={item.text}></NewlineText>
             </div>
           </>
           ) : (
           <>
-            <div className="column is-6">
+            <div className="column is-8">
               <h1>{item.name}</h1>
               <NewlineText text={item.text}></NewlineText>
             </div>
-            <div className="column is-6">
+            <div className="column is-4">
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </>

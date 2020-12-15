@@ -9,7 +9,7 @@ description: >-
   you with the continuous improvement and new projects.
 people:
   profiles:
-    - image: /img/person-placeholder.jpg
+    - image: /img/Andrew-Lyons.png
       name: Andrew Lyons
       text: >
         Andrew is a global expert in dairy design, production and capex planning. Having graduated from Newcastle University in 1989 he started on the Graduate training scheme with the APV Group the leaders in dairy engineering.  Joining Tetra Pak in 2005 he worked across Europe and Asia building dairy and food facilities.
@@ -18,7 +18,7 @@ people:
 
         Andrew has helped many dairy global brand leaders technically innovate to meet the demands of consumers and create more profitable and sustainable organisations.
 
-    - image: /img/person-placeholder.jpg
+    - image: /img/Richard-Pettifor.png
       name: Richard Pettifor
       text: >
         Richard is a Chemical Engineer by training and has worked as process engineer and project manager on a varied range of food related projects since 1988. His experience covers everything from cheese, yogurt, flavoured milks and milk powders to ready meals, brewery and beverage systems, juice processing and infant formula manufacture. With a strong schedule management discipline and contracting skills, Richard will ensure our clients’ needs are met.
@@ -33,7 +33,7 @@ people:
 
         Bill is a reluctant gardener who enjoys solving puzzles and, if the weather’s fine, a round of golf.
 
-    - image: /img/person-placeholder.jpg
+    - image: /img/Paul-Tempest.png
       name: Paul Tempest
       text: >
         Paul has over 10 years independent consulting experience and 19 years in senior management positions with APV (now SPX), the global equipment manufacturer and contractor to the food industry. 
