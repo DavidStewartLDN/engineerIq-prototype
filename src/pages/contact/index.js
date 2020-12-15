@@ -46,30 +46,32 @@ export default class Index extends React.Component {
       <Layout>
         <section className="section">
           <div className="container">
-            <div className="columns is-vcentered">
-              <div className="column">
-                <h1> Hey there</h1>
-                <div className="columns is-multiline is-mobile">
-                  <div className="column is-half">
-                    <img src={arla} alt='Arla logo'/>
-                  </div>
-                  <div className="column is-half">
-                    <img src={benna} alt='Benna logo'/>
-                  </div>
-                  <div className="column is-half">
-                    <img src={fdt} alt='FDT logo'/>
-                  </div>
-                  <div className="column is-half">
-                    <img src={mccormick} alt='Mccormick logo'/>
-                  </div>
-                  <div className="column is-half">
-                    <img src={muller} alt='Muller logo'/>
+            <div className="columns is-centered">
+              <div className="column is-4">
+                <div className="content">
+                  <h1 className='has-text-centered'>Case Studies</h1>
+                  <div className="columns is-multiline is-mobile is-centered">
+                    <div className="column is-half">
+                      <img src={arla} alt='Arla logo'/>
+                    </div>
+                    <div className="column is-half">
+                      <img src={benna} alt='Benna logo'/>
+                    </div>
+                    <div className="column is-half">
+                      <img src={fdt} alt='FDT logo'/>
+                    </div>
+                    <div className="column is-half">
+                      <img src={mccormick} alt='Mccormick logo'/>
+                    </div>
+                    <div className="column is-half">
+                      <img src={muller} alt='Muller logo'/>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="column is-6">
+              <div className="column is-4">
                 <div className="content">
-                  <h1>Contact</h1>
+                  <h1 className='has-text-centered'>Contact</h1>
                   <form
                     name="contact"
                     method="post"
