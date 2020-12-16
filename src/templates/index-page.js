@@ -5,8 +5,6 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import AboutGrid from '../components/About'
 
-import AboutVideo from "../../static/videos/engineer-iq-about.mp4"
-
 export const IndexPageTemplate = ({
   image,
   title,
