@@ -28,33 +28,33 @@ const Footer = class extends React.Component {
                 <section className="menu">
                   <ul className="menu-list">
                     <li>
-                      <Link to="/" className="navbar-item">
-                        Home
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/#about-section">
-                        About
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/whatwedo">
+                      <Link to="/whatwedo" className="navbar-item has-text-weight-bold">
                         What We Do
                       </Link>
                     </li>
                     <li>
-                    <Link className="navbar-item" to="/contact">
-                      Case Studies
+                      <Link className="navbar-item" to="/whatwedo#rfq-development">
+                        RFQ Development
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/whatwedo#sustainable-solutions">
+                        Sustainable Solutions
+                      </Link>
+                    </li>
+                    <li>
+                    <Link className="navbar-item" to="/whatwedo#performance">
+                      Performance Improvement Projects
                     </Link>
                   </li>
                   <li>
-                    <Link className="navbar-item" to="/team">
-                      Our Team
+                    <Link className="navbar-item" to="/whatwedo#site-audits">
+                      Site Audits
                     </Link>
                   </li>
                     <li>
-                      <Link className="navbar-item" to="/contact">
-                        Contact
+                      <Link className="navbar-item" to="/whatwedo#project-management">
+                        Project Management
                       </Link>
                     </li>
                   </ul>
