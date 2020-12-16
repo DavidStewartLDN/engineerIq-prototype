@@ -67,10 +67,32 @@ export const IndexPageTemplate = ({
           {subheading}
         </h3>
         */}
+        
       </div>
     </div>
+
     <section className="section section--gradient">
-      <div className="container">
+    <div
+      className="has-text-centered"
+      style={{
+        padding: '1em',
+      }}
+    >
+        <span
+          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+          style={{
+            boxShadow:
+              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(255, 68, 0)',
+            color: 'white',
+            lineHeight: '2',
+            padding: '0.25em',
+          }}
+        >
+          {subheading}
+        </span>
+      </div>
+    <div className="container">
         <div className="section">
             <div className="column is-10 is-offset-1">
               <div className="content">
@@ -89,26 +111,6 @@ export const IndexPageTemplate = ({
                 <div id="about-section">
                   <AboutGrid gridItems={intro.blurbs} />
                 </div>
-                <div
-      className="has-text-centered"
-      style={{
-        padding: '1em',
-      }}
-    >
-        <span
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {subheading}
-        </span>
-      </div>
               </div>
             </div>
         </div>
