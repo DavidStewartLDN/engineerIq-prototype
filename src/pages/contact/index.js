@@ -159,10 +159,11 @@ export default class Index extends React.Component {
                       </label>
                       <select onChange={this.handleChange} id={'request'} className="control" name={'request'}>
                         <option value>Please Select</option>
-                        <option value="Design services">Design services</option>
-                        <option value="Surveying & Monitoring">Surveying & Monitoring</option>
-                        <option value="Certification Services">Certification Services</option>
-                        <option value="BIM Services">BIM Services</option>
+                        <option value="RFQ Development">RFQ Development</option>
+                        <option value="Sustainable Solutions">Sustainable Solutions</option>
+                        <option value="Performance Improvement">Performance Improvement</option>
+                        <option value="Site Audits">Site Audits</option>
+                        <option value="Project Management">Project Management</option>
                         <option value="Other">Other (please describe below)</option>
                       </select>
                     </div>
