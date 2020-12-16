@@ -34,10 +34,7 @@ export const TeamPageTemplate = ({
             <span
               className="has-text-weight-bold is-size-1-mobile is-size-1-tablet is-size-1-widescreen"
               style={{
-                boxShadow:
-                  'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-                backgroundColor: 'rgb(255, 68, 0)',
-                color: 'white',
+                color: 'black',
                 lineHeight: '1',
                 padding: '0.25em',
               }}
