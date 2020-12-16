@@ -12,7 +12,7 @@ const Footer = class extends React.Component {
   render() {
     return (
       <footer className="footer has-background-black has-text-white-ter">
-      <div style={{ maxWidth: '100vw' }} className="columns is-vcentered">
+      <div style={{ maxWidth: '100vw', maxheight: '100px' }} className="columns is-vcentered">
         <div className="column is-9">
           <div className="content has-text-centered">
             <img
