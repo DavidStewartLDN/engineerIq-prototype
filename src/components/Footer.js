@@ -13,7 +13,7 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer has-background-black has-text-white-ter">
       <div style={{ maxWidth: '100vw', maxheight: '100px' }} className="columns is-vcentered">
-        <div className="column is-9">
+        <div className="column is-6">
           <div className="content has-text-centered">
             <img
               src={logo}
@@ -23,8 +23,8 @@ const Footer = class extends React.Component {
           </div>
         </div>
         <div className="column is-3">
-        <div className="content has-text-centered has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter">
+          <div className="content has-text-centered has-background-black has-text-white-ter">
+            <div className="container has-background-black has-text-white-ter">
                 <section className="menu">
                   <ul className="menu-list">
                     <li>
@@ -62,7 +62,47 @@ const Footer = class extends React.Component {
               </div>
             </div>
           </div>
+          <div className="column is-3">
+          <div className="content has-text-centered has-background-black has-text-white-ter">
+            <div className="container has-background-black has-text-white-ter">
+                <section className="menu">
+                  <ul className="menu-list">
+                    <li>
+                      <Link to="/" className="navbar-item">
+                        Home
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/#about-section">
+                        About
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/whatwedo">
+                        What We Do
+                      </Link>
+                    </li>
+                    <li>
+                    <Link className="navbar-item" to="/contact">
+                      Case Studies
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="navbar-item" to="/team">
+                      Our Team
+                    </Link>
+                  </li>
+                    <li>
+                      <Link className="navbar-item" to="/contact">
+                        Contact
+                      </Link>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
           </div>
+        </div>
         <h5 className="has-text-white-ter has-text-centered">Copyright © Engineeering iQ Ltd. | Registered in England No. 12641286. VAT no. 360708406 | Address: 3 Spring Cottages, London Road, Crowborough, East Sussex, TN6 1UT.</h5>
       </footer>
     )
