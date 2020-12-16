@@ -3,11 +3,6 @@ import PropTypes from 'prop-types'
 
 import EngIqVideo from "../../static/videos/eng-iq.mp4"
 
-const ConsoleLog = ({ children }) => {
-  console.log(children);
-  return false;
-};
-
 function NewlineText(props) {
   const text = props.text;
   return text.split('\n').map(str => <p>{str}</p>);
