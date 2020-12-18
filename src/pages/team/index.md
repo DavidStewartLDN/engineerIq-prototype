@@ -25,7 +25,7 @@ people:
 
         In his spare time, Richard enjoys being outdoors - walking, running, cycling or swimming – the further the better.
  
-    - image: /img/person-placeholder.jpg
+    - image: /img/Bill-Kirkland.png
       name: Bill Kirkland
       text: >
         Bill is our Automation specialist. His interests are the drive to the integrated digital factory, high availability architectures and legacy system migration.
