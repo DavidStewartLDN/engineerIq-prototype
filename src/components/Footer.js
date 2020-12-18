@@ -13,16 +13,16 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer has-background-black has-text-white-ter">
       <div style={{ maxWidth: '100vw', maxheight: '100px' }} className="columns is-vcentered">
-        <div className="column is-6">
+        <div className="column is-4">
           <div className="content has-text-centered">
             <img
               src={logo}
               alt="Engineer iQ"
-              style={{ width: '36.6em' }}
+              style={{ width: '36.6em', padding: '3em' }}
             />
           </div>
         </div>
-        <div className="column is-3">
+        <div className="column is-4">
           <div className="content has-text-centered has-background-black has-text-white-ter">
             <div className="container has-background-black has-text-white-ter">
                 <section className="menu">
@@ -62,7 +62,7 @@ const Footer = class extends React.Component {
               </div>
             </div>
           </div>
-          <div className="column is-3">
+          <div className="column is-4">
           <div className="content has-text-centered has-background-black has-text-white-ter">
             <div className="container has-background-black has-text-white-ter">
                 <section className="menu">
