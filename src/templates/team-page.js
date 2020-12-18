@@ -26,6 +26,7 @@ export const TeamPageTemplate = ({
             <div className="column is-10 is-offset-1">
             <div
             className="has-text-justified"
+            id='title'
             style={{
               padding: '1em',
               paddingBottom: '3em',

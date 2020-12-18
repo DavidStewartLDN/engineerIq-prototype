@@ -24,7 +24,7 @@ export const WhatWeDoTemplate = ({
         <div className="section">
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <div
+              <div id="title"
                 className="has-text-justified"
                 style={{
                   padding: '1em',
