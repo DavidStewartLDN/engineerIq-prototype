@@ -11,7 +11,7 @@ function NewlineText(props) {
 const AboutGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     {gridItems.map((item) => (
-      <div key={item.text} className="columns is-mobile is-multiline is-vcentered">
+      <div key={item.text} className="columns is-multiline is-vcentered">
         <div className="column is-6">
           <h1>{item.name}</h1>
           <NewlineText text={item.text}></NewlineText>
