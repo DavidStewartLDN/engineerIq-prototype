@@ -3,7 +3,7 @@ templateKey: blog-post
 title: High Availability
 date: 2016-12-17T15:04:10.000Z
 description: Avoid manufacturing downtime. Redundant system architecture.
-featuredpost: false
+featuredpost: true
 featuredimage: /img/Digital-Factory-Orange.jpg
 tags:
   - flavor
