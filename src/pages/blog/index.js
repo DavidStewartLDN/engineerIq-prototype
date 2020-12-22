@@ -13,18 +13,23 @@ export default class BlogIndexPage extends React.Component {
             backgroundImage: `url('/img/tank-farm-1.jpg')`,
           }}
         >
-          <h1
-            className="has-text-weight-bold is-size-1"
-            style={{
-              boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-              backgroundColor: '#f40',
-              color: 'white',
-              padding: '1rem',
-            }}
-          >
-            Case Studies
-          </h1>
         </div>
+        <div id="title"
+          className="has-text-centered"
+          style={{
+            padding: '1em',
+          }}>
+            <span
+              className="has-text-weight-bold is-size-1-mobile is-size-1-tablet is-size-1-widescreen"
+              style={{
+                color: 'black',
+                lineHeight: '1',
+                padding: '0.25em',
+              }}
+            >
+            News
+            </span>
+          </div>
         <section className="section">
           <div className="container">
             <div className="content">
