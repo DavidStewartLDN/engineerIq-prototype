@@ -3,10 +3,10 @@ templateKey: 'team-page'
 title: Engineer iQ
 heading: Our team at Engineer iQ
 description: >-
-  Here at Engineer iQ we have a team with a wide range of experience to help
-  our clients with any and all questions they may have. We have a great wealth of
-  experience across the Dairy, Food & Beverage Industry and we are ready to help
-  you with the continuous improvement and new projects.
+  Here at Engineer iQ we have a great team with a wide range of experience to help
+  our clients with any and all questions they may have. We have a wealth of
+  knowledge within the Dairy, Food & Beverage Industry and we are ready to help
+  you with continuous improvement and new projects.
 people:
   profiles:
     - image: /img/Andrew-Lyons.png
