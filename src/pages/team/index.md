@@ -12,11 +12,11 @@ people:
     - image: /img/Andrew-Lyons.png
       name: Andrew Lyons
       text: >
-        Andrew is a global expert in dairy design, production and capex planning. Having graduated from Newcastle University in 1989 he started on the Graduate training scheme with the APV Group the leaders in dairy engineering.  Joining Tetra Pak in 2005 he worked across Europe and Asia building dairy and food facilities.
+        Andrew is a global expert in dairy design, production and capex planning. Having graduated as a Chemical Engineer in 1989 he has been active within the food process industries all of his working life.
 
-        Andrew started his own consultancy with the support of Arla Foods in 2008 and work for Arla UK and Denmark, Robert Wiseman Dairies, Muller and Yeo Valley in the UK and Tipperary Co-op in Ireland. Andrew has a rare blend of experience in modern innovation in greenfield dairy sites as well as an appreciation of legacy technologies and the ability to get the best out of well established systems. His more specialised expertise includes waste minimisation, energy management optimisation, operational excellence through changing existing practices and introducing novel technologies to existing facilities.
+        Andrew started his own consultancy with in 2008 and has worked for Arla UK and Denmark, Robert Wiseman Dairies, Muller and Yeo Valley in the UK and Tipperary Co-op in Ireland. Andrew has a rare blend of experience in modern innovation in greenfield dairy sites as well as an appreciation of legacy technologies and the ability to get the best out of well established systems. His more specialised expertise includes waste minimisation, energy management optimisation, operational excellence through changing existing practices and introducing novel technologies to existing facilities.
 
-        Andrew has helped many dairy global brand leaders technically innovate to meet the demands of consumers and create more profitable and sustainable organisations.
+        Andrew enjoys playing tennis and cycling when his hectic schedule permits.
 
     - image: /img/Richard-Pettifor.png
       name: Richard Pettifor
