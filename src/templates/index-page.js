@@ -22,11 +22,10 @@ export const IndexPageTemplate = ({
       }}
     >
     </div>
-    <section className="section section--gradient">
     <div
       className="has-text-centered"
       style={{
-        padding: '1em',
+        paddingBottom: 'em',
       }}
     >
         <span
@@ -43,6 +42,7 @@ export const IndexPageTemplate = ({
           {subheading}
         </span>
       </div>
+    <section className="section section--gradient">
     <div className="container">
         <div className="section">
             <div className="column is-10 is-offset-1">

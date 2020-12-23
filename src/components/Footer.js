@@ -105,6 +105,9 @@ const Footer = class extends React.Component {
         </div>
         <h5 style={{
           paddingBottom: '1em',
+          paddingLeft: '1em',
+          paddingRight: '1em',
+          fontSize: '0.8em'
         }} className="has-text-white-ter has-text-centered">Copyright © Engineeering iQ Ltd. | Registered in England No. 12641286. VAT no. 360708406 | Address: 3 Spring Cottages, London Road, Crowborough, East Sussex, TN6 1UT.</h5>
       </footer>
     )
