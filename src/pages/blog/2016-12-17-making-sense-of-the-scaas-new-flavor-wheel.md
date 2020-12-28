@@ -1,33 +1,24 @@
 ---
 templateKey: blog-post
 title: High Availability
-date: 2016-12-17T15:04:10.000Z
-description: Avoid manufacturing downtime. Redundant system architecture.
+date: 2020-12-23T11:00:33.451Z
+description: |
+  What makes high availability system and how do you protect against failure?
 featuredpost: true
 featuredimage: /img/Digital-Factory-Orange.jpg
 tags:
-  - flavor
-  - tasting
+  - high availability
+  - redundancy
 ---
-![flavor wheel](/img/flavor_wheel.jpg)
+![High availability](/img/high-availability.png)
 
-The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
+A highly available system should be able to quickly recover from any sort of failure state to minimize interruptions for the end user. Best practice for achieving high availability include:
 
-While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
+* Elimination of single points of failure, or any node that would impact the system as a whole.
+* Ensure that all systems and data are backed up for simple recovery.
+* Use load balancing to distribute application and network traffic across servers or other hardware.
+* Resource monitoring. For early failure detection.
+* Distribute resources both geographically and functionally.
 
-## What the updates mean to you
-
-The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
-
-* producers
-* roasters
-* importers/exporters
-* retailers
-* manufacturers
-* baristas
-
-For over 30 years, SCAA has been dedicated to creating a vibrant specialty coffee community by recognizing, developing and promoting specialty coffee. SCAA sets and maintains quality standards for the industry, conducts market research, and provides education, training, resources, and business services for its members.
-
-Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue.
-
-The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
+Backups and failover processes are crucial components in accomplishing high availability. 
+Redundant Servers, Virtualisation and redundant ring networks are fundamental requirements to maintaining uptime. Failure of modern PLC’s is rare the control system architecture should take into account downtime required for maintenance and upgrades to the process. A solution employing PLC’s for each manufacturing cell is preferred to a single PLC controlling the whole process.
