@@ -3,13 +3,13 @@ import PropTypes from 'prop-types'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 const WhatWeDoSimpleB = ({ item, sectionID }) => (
-      <div id={sectionID} key={item.text} className="columns is-mobile is-multiline is-vcentered pt-6">
+      <div id={sectionID} key={item.text} className="columns reverse-row-order is-multiline is-vcentered pt-6">
+        <div className="column">
+          <PreviewCompatibleImage imageInfo={item} />
+        </div>
         <div className="column">
           <h1>{item.title}</h1>
           <p>{item.text}</p>
-        </div>
-        <div className="column">
-          <PreviewCompatibleImage imageInfo={item} />
         </div>
       </div>
 )

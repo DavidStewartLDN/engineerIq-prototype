@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 const WhatWeDoSimpleA = ({ item, sectionID }) => (
-      <div id={sectionID} key={item.text} className="columns is-mobile is-multiline is-vcentered pt-6">
+      <div id={sectionID} key={item.text} className="columns is-multiline is-vcentered pt-6">
         <div className="column">
           <PreviewCompatibleImage imageInfo={item} />
         </div>
