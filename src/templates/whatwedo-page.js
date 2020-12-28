@@ -5,6 +5,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import WhatWeDoSimpleA from '../components/WhatWeDoSimpleA'
 import WhatWeDoSimpleB from '../components/WhatWeDoSimpleB'
+import WhatWeDoSustainable from '../components/WhatWeDoSustainable'
 
 const sections = ['rfq-development','sustainable-solutions','performance','site-audits','project-management']
 
@@ -47,7 +48,7 @@ export const WhatWeDoTemplate = ({
               <div className="content">
                 <div className="columns is-multiline">
                   <WhatWeDoSimpleA item={topic.sections[0]} sectionID={sections[0]}/>
-                  <WhatWeDoSimpleB item={topic.sections[1]} sectionID={sections[1]}/>
+                  <WhatWeDoSustainable item={topic.sections[1]} sectionID={sections[1]} />
                   <WhatWeDoSimpleA item={topic.sections[2]} sectionID={sections[2]}/>
                   <WhatWeDoSimpleB item={topic.sections[3]} sectionID={sections[3]}/>
                   <WhatWeDoSimpleA item={topic.sections[4]} sectionID={sections[4]}/>
