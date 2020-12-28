@@ -47,21 +47,22 @@ export default class Index extends React.Component {
       <Layout>
         <section className="section">
           <div className="container">
-            <div className="content">
-              <h1 className='has-text-centered'>Contact</h1>
-            </div>
             <div className="columns is-centered">
               <div className="column is-4">
                 <div className="content">
                   <h1>Address</h1>
                   <h3> 3 Spring Cottages, <br /> London Road, <br /> Crowborough, <br /> East Sussex, <br /> TN6 1UT </h3>
                   <a title='google-maps' href='https://www.google.co.uk/maps/search/3%20Spring%20Cottages,London%20Road,Crowborough,East%20Sussex,TN6%201UT,UK'>View on Google Maps</a>
+                  <h1>Phone</h1>
+                  <h3> (+44) 0000 000000 </h3>
+                  <h1>Email</h1>
+                  <h3> placeholder@engineeriq.co.uk </h3>
                 </div>
               </div>
               <div className="column is-1"></div>
               <div className="column is-4">
                 <div className="content">
-                  <h1 className='has-text-centered'>Contact</h1>
+                  <h1 className='has-text-centered'>Contact Our Team</h1>
                   <form
                     name="contact"
                     method="post"
