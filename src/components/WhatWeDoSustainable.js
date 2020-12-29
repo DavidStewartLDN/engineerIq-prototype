@@ -6,7 +6,7 @@ const WhatWeDoSustainable = ({ item, sectionID }) => (
       <div id={sectionID} key={item.text} className="columns reverse-row-order is-multiline is-vcentered pt-6">
         <div className="column">
           <div className="is-desktop is-vcentered">
-            <video className="is-desktop is-vcentered" autoPlay muted loop>
+            <video className="is-desktop is-vcentered" autoPlay muted loop playsinline>
               <source src={SustainableVideo} type="video/mp4"/>
             </video>
           </div>
