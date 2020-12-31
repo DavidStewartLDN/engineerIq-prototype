@@ -18,7 +18,7 @@ const AboutGrid = ({ gridItems }) => (
         </div>
         <div className="column is-6">
           <div className="is-desktop is-vcentered">
-            <video autoPlay muted loop playsInLine playsinline>
+            <video autoPlay muted loop playsInline>
               <source src={EngIqVideo} type="video/mp4"/>
             </video>
           </div>
