@@ -2,10 +2,7 @@
 templateKey: blog-post
 title: Product Recovery
 date: 2021-01-11T14:12:03.252Z
-description: The drive to zero loss production has directed attention to Product
-  Recovery systems and innovative use of waste biproducts. Our team at
-  EngineeriQ has worked with Global Brand Leaders to introduce processes and
-  controls to achieve best in class performance.
+description: How do you maximise efficiency and maximising product recovery?
 featuredpost: true
 featuredimage: /img/product-recovery-3.png
 tags:
@@ -14,12 +11,13 @@ tags:
   - Zero Loss Production
   - Waste Biproducts
 ---
+The drive to zero loss production has directed attention to Product Recovery systems and innovative use of waste biproducts. Our team at EngineeriQ has worked with Global Brand Leaders to introduce processes and controls to achieve best in class performance.
+
 Product at the end of a production sequence is recovered from pipework and heat exchangers using water or compressed air to push or purge the product forward into the product storage tank or a dedicated recovery tank.
 
 ![Food & Drink Material Hierarchy Diagram](/img/product-recovery-3.png "Food & Drink Material Hierarchy")
 
 * Preventing (or avoiding) waste and losses comes at a cost, however, this far outweighs the cost of processing rework or exporting waste from site.
-
 * Product Recovery systems are employed to manage product interfaces, eliminating losses and product damage. 
 * Membrane technology helps with concentrating recovered product for reworking into the process stream or generating higher value biproducts. Recovered water from these processes is polished and available for process & CIP applications.
 
