@@ -2,14 +2,6 @@ import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
 
-import arla from "../../../static/img/arla.jpg"
-import benna from "../../../static/img/benna.jpg"
-import fdt from "../../../static/img/fdt.png"
-import mccormick from "../../../static/img/mccormick.jpg"
-import muller from "../../../static/img/muller.png"
-import gemak from "../../../static/img/gemak.png"
-
-
 function encode(data) {
   return Object.keys(data)
     .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
@@ -51,14 +43,14 @@ export default class Index extends React.Component {
               <div className="column is-4">
                 <div className="content">
                   <h2>Address</h2>
-                  <h4> 3 Spring Cottages, London Road, Crowborough, East Sussex, TN6 1UT </h4>
-                  <h4> Registered in the England:12641286 <br /> VAT no.360708406</h4>
+                  <h5> 3 Spring Cottages, London Road, Crowborough, East Sussex, TN6 1UT </h5>
+                  <h5> Registered in the England:12641286 <br /> VAT no.360708406</h5>
                   <h2>Phone</h2>
-                  <h4> 020x xxxx xxxx </h4>
+                  <h5> 020x xxxx xxxx </h5>
                   <h2>Email</h2>
-                  <h4> 
+                  <h5> 
                     <a href="mailto:info@engineeriq.co.uk">info@engineeriq.co.uk</a> 
-                  </h4>
+                  </h5>
                 </div>
               </div>
               <div className="column is-1"></div>
