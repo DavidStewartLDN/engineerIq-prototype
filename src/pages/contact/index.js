@@ -2,14 +2,6 @@ import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
 
-import arla from "../../../static/img/arla.jpg"
-import benna from "../../../static/img/benna.jpg"
-import fdt from "../../../static/img/fdt.png"
-import mccormick from "../../../static/img/mccormick.jpg"
-import muller from "../../../static/img/muller.png"
-import gemak from "../../../static/img/gemak.png"
-
-
 function encode(data) {
   return Object.keys(data)
     .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
@@ -50,19 +42,21 @@ export default class Index extends React.Component {
             <div className="columns is-centered">
               <div className="column is-4">
                 <div className="content">
-                  <h1>Address</h1>
-                  <h3> 3 Spring Cottages, <br /> London Road, <br /> Crowborough, <br /> East Sussex, <br /> TN6 1UT </h3>
-                  <a title='google-maps' href='https://www.google.co.uk/maps/search/3%20Spring%20Cottages,London%20Road,Crowborough,East%20Sussex,TN6%201UT,UK'>View on Google Maps</a>
-                  <h1>Phone</h1>
-                  <h3> (+44) 0000 000000 </h3>
-                  <h1>Email</h1>
-                  <h3> placeholder@engineeriq.co.uk </h3>
+                  <h2>Address</h2>
+                  <h5> 3 Spring Cottages, London Road, Crowborough, East Sussex, TN6 1UT </h5>
+                  <h5> Registered in the England:12641286 <br /> VAT no.360708406</h5>
+                  <h2>Phone</h2>
+                  <h5> 020x xxxx xxxx </h5>
+                  <h2>Email</h2>
+                  <h5> 
+                    <a href="mailto:info@engineeriq.co.uk">info@engineeriq.co.uk</a> 
+                  </h5>
                 </div>
               </div>
               <div className="column is-1"></div>
               <div className="column is-4">
                 <div className="content">
-                  <h1 className='has-text-centered'>Contact Our Team</h1>
+                  <h2 className='has-text-centered'>Contact Our Team</h2>
                   <form
                     name="contact"
                     method="post"
@@ -164,6 +158,7 @@ export default class Index extends React.Component {
                           onChange={this.handleChange}
                           id={'message'}
                           required={true}
+                          rows={2}
                         />
                       </div>
                     </div>
