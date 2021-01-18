@@ -50,19 +50,21 @@ export default class Index extends React.Component {
             <div className="columns is-centered">
               <div className="column is-4">
                 <div className="content">
-                  <h1>Address</h1>
-                  <h3> 3 Spring Cottages, <br /> London Road, <br /> Crowborough, <br /> East Sussex, <br /> TN6 1UT </h3>
-                  <a title='google-maps' href='https://www.google.co.uk/maps/search/3%20Spring%20Cottages,London%20Road,Crowborough,East%20Sussex,TN6%201UT,UK'>View on Google Maps</a>
-                  <h1>Phone</h1>
-                  <h3> (+44) 0000 000000 </h3>
-                  <h1>Email</h1>
-                  <h3> placeholder@engineeriq.co.uk </h3>
+                  <h2>Address</h2>
+                  <h4> 3 Spring Cottages, London Road, Crowborough, East Sussex, TN6 1UT </h4>
+                  <h4> Registered in the England:12641286 <br /> VAT no.360708406</h4>
+                  <h2>Phone</h2>
+                  <h4> 020x xxxx xxxx </h4>
+                  <h2>Email</h2>
+                  <h4> 
+                    <a href="mailto:info@engineeriq.co.uk">info@engineeriq.co.uk</a> 
+                  </h4>
                 </div>
               </div>
               <div className="column is-1"></div>
               <div className="column is-4">
                 <div className="content">
-                  <h1 className='has-text-centered'>Contact Our Team</h1>
+                  <h2 className='has-text-centered'>Contact Our Team</h2>
                   <form
                     name="contact"
                     method="post"
@@ -164,6 +166,7 @@ export default class Index extends React.Component {
                           onChange={this.handleChange}
                           id={'message'}
                           required={true}
+                          rows={2}
                         />
                       </div>
                     </div>
