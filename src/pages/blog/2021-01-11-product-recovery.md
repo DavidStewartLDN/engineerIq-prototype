@@ -33,4 +33,4 @@ These technologies have limitations:
 
 The Fluivac process overcomes many of the above issues. Fluivac uses high pressure and low volume of compressed air to remove the core product in the centre of pipework or heat exchangers and then follows on with a high flow low pressure air purge with a small amount of water injected into the air to give a scouring effect on the pipework surfaces leading to 95% of product recovery. Introduced through the CIP (Cleaning in Place) system pipework Fluivac can also be used to recover dilute cleaning detergents and acids between phases rather than using fresh water.
 
-*Find out how EngineeriQ can improve the product recovery and reduce losses in your factory.*
+*Find out how EngineeriQ can improve product recovery and reduce losses in your factory.*
