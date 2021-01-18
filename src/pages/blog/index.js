@@ -46,33 +46,31 @@ export default class BlogIndexPage extends React.Component {
             <div className="content">
               <BlogRoll />
             </div>
-            <div className="container">
-              <div className="columns is-centered">
-               <div className="column is-12">
-                <div className="content">
-                  <h1 className='has-text-centered'>Trusted by</h1>
-                  <div className="columns is-multiline is-centered">
-                    <div className="column is-2">
-                      <img src={arla} alt='Arla logo'/>
-                    </div>
-                    <div className="column is-2">
-                      <img src={benna} alt='Benna logo'/>
-                    </div>
-                    <div className="column is-2">
-                      <img src={fdt} alt='FDT logo'/>
-                    </div>
-                    <div className="column is-2">
-                      <img src={gemak} alt='Gemak logo'/>
-                    </div>
-                    <div className="column is-2">
-                      <img src={mccormick} alt='Mccormick logo'/>
-                    </div>
-                    <div className="column is-2">
-                      <img src={muller} alt='Muller logo'/>
-                    </div>
+          </div>
+          <div className="content">
+            <div className="columns is-centered">
+              <div className="column is-10">
+                <h1 className="has-text-centered">Trusted by</h1>
+                <div className="columns is-centered">
+                  <div className="column has-text-centered is-2">
+                    <img src={arla} alt='Arla logo'/>
+                  </div>
+                  <div className="column has-text-centered is-2">
+                    <img src={benna} alt='Benna logo'/>
+                  </div>
+                  <div className="column has-text-centered is-2">
+                    <img src={fdt} alt='FDT logo'/>
+                  </div>
+                  <div className="column has-text-centered is-2">
+                    <img src={gemak} alt='Gemak logo'/>
+                  </div>
+                  <div className="column has-text-centered is-2">
+                    <img src={mccormick} alt='Mccormick logo'/>
+                  </div>
+                  <div className="column has-text-centered is-2">
+                    <img src={muller} alt='Muller logo'/>
                   </div>
                 </div>
-              </div>
               </div>
             </div>
           </div>
