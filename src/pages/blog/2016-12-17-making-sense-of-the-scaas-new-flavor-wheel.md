@@ -5,7 +5,7 @@ date: 2020-12-23T11:00:33.451Z
 description: |
   How can you protect against failure and achieve high availability?
 featuredpost: true
-featuredimage: /img/Digital-Factory-Orange.jpg
+featuredimage: /img/high-availability.png
 tags:
   - high availability
   - redundancy
