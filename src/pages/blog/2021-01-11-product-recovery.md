@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Product Recovery
 date: 2021-01-11T14:12:03.252Z
-description: How do you maximise efficiency and maximising product recovery?
+description: " "
 featuredpost: true
 featuredimage: /img/product-recovery-3.png
 tags:
