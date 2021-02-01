@@ -44,7 +44,7 @@ export default class Index extends React.Component {
                 <div className="content">
                   <h2>Address</h2>
                   <h5> 3 Spring Cottages, London Road, Crowborough, East Sussex, TN6 1UT </h5>
-                  <h5> Registered in the England:12641286 <br /> VAT no.360708406</h5>
+                  <h5> Registered in England:12641286 <br /> VAT no.360708406</h5>
                   <h2>Phone</h2>
                   <h5> 020x xxxx xxxx </h5>
                   <h2>Email</h2>
