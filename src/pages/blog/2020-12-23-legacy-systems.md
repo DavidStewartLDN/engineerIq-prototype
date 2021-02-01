@@ -2,8 +2,7 @@
 templateKey: blog-post
 title: Legacy Systems
 date: 2020-12-16T12:00:34.718Z
-description: Challenges of legacy systems and how Engineer iQ can help create
-  the strategy for new ones.
+description: " "
 featuredpost: true
 featuredimage: /img/legacy-systems.jpg
 tags:
