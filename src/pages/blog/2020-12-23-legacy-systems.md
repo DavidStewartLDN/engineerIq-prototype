@@ -2,7 +2,8 @@
 templateKey: blog-post
 title: Legacy Systems
 date: 2020-12-16T12:00:34.718Z
-description: " "
+description: " Stuck with end-of-life technology? Find out how EngineeriQ can
+  help bring new life to your legacy system."
 featuredpost: true
 featuredimage: /img/legacy-systems.jpg
 tags:
