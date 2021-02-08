@@ -10,9 +10,9 @@ tags:
   - high availability
   - redundancy
 ---
-![High availability](/img/high-availability.png)
+![](/img/high-availability.png)
 
-Systems providing High Availability should be able to quickly recover from any sort of failure state to minimize interruptions for the end user. Best practice for achieving high availability include:
+High availability Systems should be able to quickly recover from any sort of failure state to minimize interruptions for the end user. Best practice for achieving high availability include:
 
 * Elimination of single points of failure, or any node that would impact the system as a whole.
 * Ensure that all systems and data are backed up for simple recovery.
