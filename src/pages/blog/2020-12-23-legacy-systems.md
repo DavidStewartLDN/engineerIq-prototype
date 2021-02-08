@@ -5,13 +5,13 @@ date: 2020-12-16T12:00:34.718Z
 description: " Stuck with end-of-life technology? Find out how EngineeriQ can
   help bring new life to your legacy system."
 featuredpost: true
-featuredimage: /img/legacy-systems.jpg
+featuredimage: /img/legacy-systems.png
 tags:
   - legacy systems
   - audit
   - Engineer iQ
 ---
-![Legacy systems to upgraded systems](/img/legacy-systems.jpg)
+![Legacy systems to upgraded systems](/img/legacy-systems.png)
 
 Technology companies issue end of life warnings to users of their hardware and software products. Keeping technology current ensures access to spares, support and the ability to incorporate new features and releases.
 
