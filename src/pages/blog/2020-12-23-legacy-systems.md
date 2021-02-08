@@ -11,7 +11,7 @@ tags:
   - audit
   - Engineer iQ
 ---
-![Legacy systems to upgraded systems](/img/legacy-systems.png)
+![](/img/legacy-systems.png)
 
 Technology companies issue end of life warnings to users of their hardware and software products. Keeping technology current ensures access to spares, support and the ability to incorporate new features and releases.
 
