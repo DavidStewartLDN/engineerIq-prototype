@@ -73,9 +73,9 @@ export default class Index extends React.Component {
                         <input name="bot-field" onChange={this.handleChange} />
                       </label>
                     </div>
-                    <div className="field">
+                    <div className="field form-inline">
                       <label className="label" htmlFor={'name'}>
-                        Your name
+                        Your name:
                       </label>
                       <div className="control">
                         <input
@@ -88,9 +88,9 @@ export default class Index extends React.Component {
                         />
                       </div>
                     </div>
-                    <div className="field">
+                    <div className="field form-inline">
                       <label className="label" htmlFor={'company'}>
-                        Your Company
+                        Your Company:
                       </label>
                       <div className="control">
                         <input
@@ -103,9 +103,9 @@ export default class Index extends React.Component {
                         />
                       </div>
                     </div>
-                    <div className="field">
+                    <div className="field form-inline">
                       <label className="label" htmlFor={'number'}>
-                        Your Contact Number
+                        Your Contact Number:
                       </label>
                       <div className="control">
                         <input
@@ -118,9 +118,9 @@ export default class Index extends React.Component {
                         />
                       </div>
                     </div>
-                    <div className="field">
+                    <div className="field form-inline">
                       <label className="label" htmlFor={'email'}>
-                        Email
+                        Email:
                       </label>
                       <div className="control">
                         <input
@@ -133,7 +133,7 @@ export default class Index extends React.Component {
                         />
                       </div>
                     </div>
-                    <div className="field">
+                    <div className="field form-inline">
                       <label className="label" htmlFor={'request'}>
                       How can we help you?
                       </label>
@@ -144,7 +144,7 @@ export default class Index extends React.Component {
                         <option value="Performance Improvement">Performance Improvement</option>
                         <option value="Site Audits">Site Audits</option>
                         <option value="Project Management">Project Management</option>
-                        <option value="Other">Other (please describe below)</option>
+                        <option value="Other">Other (describe below)</option>
                       </select>
                     </div>
                     <div className="field">
