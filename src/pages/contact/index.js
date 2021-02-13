@@ -43,14 +43,14 @@ export default class Index extends React.Component {
               <div className="column is-4">
                 <div className="content">
                   <h2>Address</h2>
-                  <h5> 3 Spring Cottages, London Road, Crowborough, East Sussex, TN6 1UT </h5>
-                  <h5> Registered in England:12641286 <br /> VAT no.360708406</h5>
+                  <p> 3 Spring Cottages, London Road, Crowborough, East Sussex, TN6 1UT </p>
+                  <p> Registered in England:12641286 VAT no.360708406</p>
                   <h2>Phone</h2>
-                  <h5> 020x xxxx xxxx </h5>
+                  <p> 020x xxxx xxxx </p>
                   <h2>Email</h2>
-                  <h5> 
+                  <p> 
                     <a href="mailto:info@engineeriq.co.uk">info@engineeriq.co.uk</a> 
-                  </h5>
+                  </p>
                 </div>
               </div>
               <div className="column is-1"></div>
