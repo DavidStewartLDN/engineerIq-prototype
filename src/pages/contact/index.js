@@ -135,7 +135,7 @@ export default class Index extends React.Component {
                     </div>
                     <div className="field form-inline">
                       <label className="label" htmlFor={'request'}>
-                      How can we help you?
+                      How can we help?
                       </label>
                       <select onChange={this.handleChange} id={'request'} className="control" name={'request'}>
                         <option value>Please Select</option>
