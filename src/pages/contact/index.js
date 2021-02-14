@@ -46,7 +46,7 @@ export default class Index extends React.Component {
                   <p> 3 Spring Cottages, London Road, Crowborough, East Sussex, TN6 1UT </p>
                   <p> Registered in England:12641286 VAT no.360708406</p>
                   <h2>Phone</h2>
-                  <p> 020x xxxx xxxx </p>
+                  <p> 0208 8004 4349 </p>
                   <h2>Email</h2>
                   <p> 
                     <a href="mailto:info@engineeriq.co.uk">info@engineeriq.co.uk</a> 
@@ -135,7 +135,7 @@ export default class Index extends React.Component {
                     </div>
                     <div className="field form-inline">
                       <label className="label" htmlFor={'request'}>
-                      How can we help you?
+                      How can we help?
                       </label>
                       <select onChange={this.handleChange} id={'request'} className="control" name={'request'}>
                         <option value>Please Select</option>
