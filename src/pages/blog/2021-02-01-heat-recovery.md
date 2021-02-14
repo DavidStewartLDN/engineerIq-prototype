@@ -9,17 +9,7 @@ tags:
   - Heat Recovery
   - Engineer iQ
 ---
-Greenfield projects are often faced with BREEAM accreditation which is measured in nine different categories:
-
-* Management
-* Health & Wellbeing
-* Energy
-* Transport
-* Water
-* Materials
-* Waste
-* Land Use & Ecology
-* Pollution
+Greenfield projects are often faced with BREEAM accreditation which is measured in nine different categories: Management, Health & Wellbeing, Energy, Transport, Water, Materials, Waste, Land Use & Ecology and Pollution.
 
 These credits accumulate to give a final score that determines your rating of:
 
