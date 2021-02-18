@@ -7,16 +7,7 @@ import { useForm } from 'react-hook-form';
 
 function Index() {
   
-  const { register, errors, handleSubmit, reset } = useForm();
-  
-  // const onSubmit = async (data) => {
-  //   console.log('Name: ', data.name);
-  //   console.log('Company Name: ', data.company);
-  //   console.log('Contact Number: ', data.number);
-  //   console.log('Email: ', data.email);
-  //   console.log('Request: ', data.request);
-  //   console.log('Message: ', data.message);
-  // };
+  const { register, handleSubmit, reset } = useForm();
 
   const onSubmit = async (data) => {
     try {
