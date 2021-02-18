@@ -10,8 +10,10 @@ function Index() {
   
   const onSubmit = async (data) => {
     console.log('Name: ', data.name);
+    console.log('Company Name: ', data.company);
+    console.log('Contact Number: ', data.number);
     console.log('Email: ', data.email);
-    console.log('Subject: ', data.subject);
+    console.log('Request: ', data.request);
     console.log('Message: ', data.message);
   };
 
@@ -45,8 +47,6 @@ function Index() {
                   name="contact"
                   method="post"
                   action="/contact/thanks/"
-                  data-netlify="true"
-                  data-netlify-honeypot="bot-field"
                   onSubmit={handleSubmit(onSubmit)}
                 >
                   {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
@@ -68,6 +68,8 @@ function Index() {
                         name={'name'}
                         id={'name'}
                         required={true}
+                        placeholder='Name'
+                        ref={register}
                       />
                     </div>
                   </div>
@@ -82,6 +84,7 @@ function Index() {
                         name={'company'}
                         id={'company'}
                         required={true}
+                        ref={register}
                       />
                     </div>
                   </div>
@@ -96,6 +99,7 @@ function Index() {
                         name={'number'}
                         id={'number'}
                         required={true}
+                        ref={register}
                       />
                     </div>
                   </div>
@@ -110,6 +114,7 @@ function Index() {
                         name={'email'}
                         id={'email'}
                         required={true}
+                        ref={register}
                       />
                     </div>
                   </div>
@@ -117,7 +122,7 @@ function Index() {
                     <label className="label" htmlFor={'request'}>
                     How can we help?
                     </label>
-                    <select id={'request'} className="control" name={'request'}>
+                    <select id={'request'} className="control" name={'request'} ref={register}>
                       <option value>Please Select</option>
                       <option value="RFQ Development">RFQ Development</option>
                       <option value="Sustainable Solutions">Sustainable Solutions</option>
@@ -138,6 +143,7 @@ function Index() {
                         id={'message'}
                         required={true}
                         rows={2}
+                        ref={register}
                       />
                     </div>
                   </div>
