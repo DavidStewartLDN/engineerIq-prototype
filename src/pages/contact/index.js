@@ -26,6 +26,7 @@ function Index() {
         process.env.REACT_APP_USER_ID
       );
       reset();
+      navigate('/contact/thanks/');
     } catch (e) {
       console.log(e);
     }
