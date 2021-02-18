@@ -1,6 +1,7 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
+import emailjs from 'emailjs-com';
 
 import { useForm } from 'react-hook-form';
 
@@ -8,18 +9,36 @@ function Index() {
   
   const { register, errors, handleSubmit, reset } = useForm();
   
-  const onSubmit = async (data) => {
-    console.log('Name: ', data.name);
-    console.log('Company Name: ', data.company);
-    console.log('Contact Number: ', data.number);
-    console.log('Email: ', data.email);
-    console.log('Request: ', data.request);
-    console.log('Message: ', data.message);
-  };
+  // const onSubmit = async (data) => {
+  //   console.log('Name: ', data.name);
+  //   console.log('Company Name: ', data.company);
+  //   console.log('Contact Number: ', data.number);
+  //   console.log('Email: ', data.email);
+  //   console.log('Request: ', data.request);
+  //   console.log('Message: ', data.message);
+  // };
 
-  const handleChange = () => {
-    console.log('Blank function')
-  }
+  const onSubmit = async (data) => {
+    try {
+      const templateParams = {
+        name: data.name,
+        company: data.company,
+        number: data.number,
+        email: data.email,
+        request: data.request,
+        message: data.message
+      };
+      await emailjs.send(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        templateParams,
+        process.env.REACT_APP_USER_ID
+      );
+      reset();
+    } catch (e) {
+      console.log(e);
+    }
+  };
 
   return (
     <Layout>
