@@ -19,6 +19,7 @@ const TemplateWrapper = ({ children }) => {
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
+        <meta name="keywords" content="EngineerIQ.co.uk, Dairy, Food, Beverage, Automation, Process Design, Sustainability, Continuous Improvement" />
 
         <link
           rel="apple-touch-icon"
@@ -37,7 +38,10 @@ const TemplateWrapper = ({ children }) => {
           href={`${withPrefix('/')}img/favicon-16x16.png`}
           sizes="16x16"
         />
-
+        <link 
+          rel="shortcut icon"
+          href={`${withPrefix('/')}img/favicon.ico`}
+        />
         <link
           rel="mask-icon"
           href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
