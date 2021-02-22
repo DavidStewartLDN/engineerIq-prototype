@@ -2,11 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
-const ConsoleLog = ({ children }) => {
-  console.log(children);
-  return false;
-};
-
 function NewlineText(props) {
   const text = props.text;
   return text.split('\n').map(str => <p>{str}</p>);
