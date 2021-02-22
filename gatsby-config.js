@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Engineer iQ',
     description:
-      'Enigneer iQ Website',
+      'Engineer iQ Website',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
