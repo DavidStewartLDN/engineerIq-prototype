@@ -19,6 +19,7 @@ const TemplateWrapper = ({ children }) => {
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
+        <meta name="keywords" content="EngineerIQ.co.uk, Dairy, Food, Beverage, Automation, Process Design, Sustainability, Continuous Improvement" />
 
         <link
           rel="apple-touch-icon"
